@@ -18,12 +18,12 @@ import Banner from './components/banner';
 
 const history = require('history').createBrowserHistory;
 
-function App() {
+function App3() {
   const pages = [
     {
       pageLink: '/',
       view: Home,
-      displayName: 'Home',
+      displayNameTest: 'Home',
       animationDelayForNavbar: 0.2,
     },
     /* {
@@ -39,7 +39,6 @@ function App() {
       animationDelayForNavbar: 0.5,
     },
     {
-      pageLink: '/faq',
       view: FAQ,
       displayName: 'FAQ',
       animationDelayForNavbar: 0.6,
